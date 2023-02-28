@@ -14,11 +14,15 @@
         <h2>Etch-A-Sketch</h2>
         <div class="flex">
             <div class="utility">
-                <h1>pick color</h1>
-                <div class="picker"></div>
+                <h1>pick color</h1> 
+                <div class="slidecontainer">
+                  <input type="range" min="4" max="32" value="4" class="slider" id="myRange">
+                </div>
+                <div>
+                  <h2 id="output">...</h2>
+               </div>
                 <div class="button1"><button>Black</button></div>
                 <div class="button2"><button>Rainbow</button></div>
-                <div class="button3"><button>Reset</button></div>
             </div>
             <div class="canvas">
                 <div class="grid" id="grid">
