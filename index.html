@@ -11,18 +11,19 @@
 </head>
 <body>
     <div class="box">
-        <h2>Etch-A-Sketch</h2>
+        <h1>Etch-A-Sketch</h1>
         <div class="flex">
             <div class="utility">
-                <h1>pick color</h1> 
+                <h2>choose a grid size</h2> 
                 <div class="slidecontainer">
                   <input type="range" min="4" max="32" value="4" class="slider" id="myRange">
                 </div>
                 <div>
                   <h2 id="output">...</h2>
                </div>
-                <div class="button1"><button>Black</button></div>
-                <div class="button2"><button>Rainbow</button></div>
+               <div id="black"><button>Black</button></div>
+               <div id="rainbow"><button>Rainbow</button></div>
+               <div class="button3" id="reset"><button>Reset</button></div>
             </div>
             <div class="canvas">
                 <div class="grid" id="grid">
